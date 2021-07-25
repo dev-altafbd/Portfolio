@@ -3260,3 +3260,68 @@ body.dark .blog-page-section .blog-single {
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
+.rjs-cursor {
+  width: 25px;
+  height: 25px;
+  position: fixed;      /* Fixed position.. */
+  top: 0;               /* at the top left.. */
+  left: 0;
+  z-index: 999999;      /* above everything else. */
+  pointer-events: none; /* Cant't be clicked. */
+  transition: none;     /* Cursor is always accurate */
+  opacity:  0; /* Hidden by default */
+  transform: translate(-50%; -50%);
+}
+
+.rjs-cursor {
+  width: 30px;
+  height: 30px;
+  position: fixed;      /* Fixed position.. */
+  top: 0;               /* at the top left.. */
+  left: 0;
+  z-index: 999999;      /* above everything else. */
+  pointer-events: none; /* Cant't be clicked. */
+  transition: none;     /* Cursor is always accurate */
+  opacity: 0; /* Hidden by default */
+  transform: translate(-50%; -50%);
+}
+
+.rjs-cursor-icon {      /* Styling for the visible part */
+  width: 120%;
+  height: 120%;
+  border-radius: 100%;  /* Circle */
+  background-color: rgba(62, 99, 99, 0.521); /* Backup value */
+  transition: all 0.2s ease; 
+  transform-origin: 50% 50%;
+}
+
+.rjs-cursor.rjs_cursor_visible { opacity: 1; }
+.rjs-cursor.rjs_cursor_hidden { opacity: 0; }
+
+/* Display the cursors at the correct time */
+* { cursor: none; }
+
+@media (pointer: none), (pointer: coarse) {
+    #rjs_cursor, #rjs_cursor .rjs-cursor-icon { display: none !important; visibility: hidden; opacity: 0; }
+
+    * { cursor: auto !important; }
+}
+
+
+/* Hover effects */
+.rjs-cursor.rjs_cursor_hover .rjs-cursor-icon { transform: scale(2); }
+
+
+
+
+
+/* The body element is required to fill the complete browser. This will be the case on almost every website that has content. Otherwise you could add this as a fallback */
+
+body { min-width: 100vw; min-height: 100vh; margin: 0; } */
+
+
+
+
+/* The body element is required to fill the complete browser. This will be the case on almost every website that has content. Otherwise you could add this as a fallback */
+
+body { min-width: 100vw; min-height: 100vh; margin: 0; } */
