@@ -482,3 +482,10 @@ $(function(){
     });
 
 });
+
+
+
+
+
+//---------- show less-------
+// $(".grid-item:visible").slice(-3).slideUp();
