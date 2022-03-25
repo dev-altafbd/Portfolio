@@ -2878,14 +2878,14 @@ body.dark .blog-page-section .blog-single {
   border-radius: 20px;
   background: #e0e5ec;
   box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
-  border: none
+  border: none;
 
 }
 
 .card img {
   border-radius: 50%;
   background: linear-gradient(145deg, #d6d6d6, #ffffff);
-  box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+  box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff;
 }
 
 .neo-button {
@@ -2899,33 +2899,33 @@ body.dark .blog-page-section .blog-single {
   margin-right: 10px;
   border-radius: 50%;
   background: linear-gradient(145deg, #d6d6d6, #ffffff);
-  box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+  box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff;
 }
 
 .neo-button:active {
   border-radius: 50%;
   background: linear-gradient(145deg, #d6d6d6, #ffffff);
-  box-shadow: inset 20px 20px 60px #cacaca, inset -20px -20px 60px #ffffff
+  box-shadow: inset 20px 20px 60px #cacaca, inset -20px -20px 60px #ffffff;
 }
 
 .fa-facebook {
-  color: #3b5998
+  color: #3b5998;
 }
 
 .fa-linkedin {
-  color: #0077b5
+  color: #0077b5;
 }
 
 .fa-github{
-  color: #000000
+  color: #000000;
 }
 
 .fa-skype {
-  color: #1798e2
+  color: #1798e2;
 }
 
 .fa-twitter {
-  color: #55acee
+  color: #55acee;
 }
 
 /*=================================================================*/
@@ -3085,7 +3085,7 @@ body.dark .blog-page-section .blog-single {
   opacity: 1;
   height: 6px;
   width: 10px;
-  box-shadow: -7px -7px 20px 0px #fff9, , -4px -4px 5px 0px #fff9,
+  box-shadow: -7px -7px 20px 0px #fff9,  -4px -4px 5px 0px #fff9,
     7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9,
     inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9,
     inset 0px 0px 0px 0px #0001;
@@ -3377,7 +3377,7 @@ body.dark .blog-page-section .blog-single {
 
 /* The body element is required to fill the complete browser. This will be the case on almost every website that has content. Otherwise you could add this as a fallback */
 
-body { min-width: 100vh; min-height: 100vh; margin: 0; } */
+body { min-width: 100vh; min-height: 100vh; margin: 0; } 
 
 
 
